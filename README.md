@@ -176,7 +176,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float64-catalan/main/LICENSE
 
-[catalan-constant]: http://en.wikipedia.org/wiki/Catalan%27s_constant
+[catalan-constant]: https://en.wikipedia.org/wiki/Catalan%27s_constant
 
 </section>
 
