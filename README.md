@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import CATALAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@deno/mod.js';
+import CATALAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@v0.0.8-deno/mod.js';
 ```
 
 #### CATALAN
@@ -73,7 +73,7 @@ var bool = ( CATALAN === 0.915965594177219 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import CATALAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@deno/mod.js';
+import CATALAN from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@v0.0.8-deno/mod.js';
 
 console.log( CATALAN );
 // => 0.915965594177219
