@@ -65,6 +65,11 @@ C = \sum_{n=0}^{\infty} \frac{(-1)^{n}}{(2n+1)^2} = \frac{1}{1^2} - \frac{1}{3^2
 To use in Observable,
 
 ```javascript
+CATALAN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-catalan/tags). For example,
+
+```javascript
 CATALAN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@v0.2.3-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var CATALAN = require( 'path/to/vendor/umd/constants-float64-catalan/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -115,7 +120,7 @@ var bool = ( CATALAN === 0.915965594177219 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-catalan@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
